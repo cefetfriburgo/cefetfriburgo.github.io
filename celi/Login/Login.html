@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,22 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 id="Principal">Entrar no CELi</h1>
-    <div class="login">
-        <h3 class="p">Usuário</h3>
-        <p></p>
-        <h3 class="p">Senha</h3>
-        <p></p>
-        <h2>Entre</h2>
-    </div>
-    <div class="register">
-        Novo no CEli? Registre-se.
-    </div>
+    <main>
+        <h1 id="Principal">Entrar no CELi</h1>
+        <form class="login">
+            <label for="Usuario">Usuário</label>
+            <input type="text" id="Usuario">
+            <a href="#"> Esqueceu a senha?</a>
+            <label for="Senha">Senha</label>
+            <input type="password" id="Senha">
+            <button>Entre</button>
+        </form>
+        <div class="register">
+            Novo no CEli? Registre-se.
+        </div>
+    </main>
 </body>
+
 </html>
