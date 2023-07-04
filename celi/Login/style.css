@@ -1,0 +1,31 @@
+body{
+    background-color: #212529;
+}
+#Principal{
+    font-size: 1em;
+}
+.login{
+    background-color: #2B3035;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+.register{
+    background-color: #212529;
+}
+p{
+    width: 275px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0.01px solid rgb(162, 150, 150);
+    background-color: #212529;
+}
+.p{
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 5px;
+}
